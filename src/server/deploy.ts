@@ -16,7 +16,7 @@ export default class Deploy extends Model {
     
     const { setting } = this.db
     this.platformAddress = ({
-      github: 'github.com',
+      github: 'github.com.cnpmjs.org',
       coding: 'e.coding.net',
     } as any)[setting.platform || 'github']
     const preUrl = ({
